@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+nav h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00e676;
+}
+
+nav p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #bdbdbd;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adds space between buttons */
+  width: 100%;
+  max-width: 600px;
+}
+
+button {
+  padding: 20px 40px; /* Larger buttons */
+  font-size: 1.5rem; /* Larger text */
+  border: none;
+  border-radius: 12px;
+  background: #00e676;
+  color: #121212;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%; /* Make the buttons wide, but not full-width */
+}
+
+button:hover {
+  background: #00c853;
+  transform: scale(1.05); /* Subtle hover scaling effect */
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #757575;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-top: 2px solid #333;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.center-image img {
+  width: 150px;
+  height: auto;
+}
